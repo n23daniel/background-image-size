@@ -1,0 +1,32 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  text-align: center;
+}
+
+.cover,
+.contain,
+.cover-bg,
+.contain-bg {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  height: 200px;
+  margin: 10px 0px;
+  border: 1px solid #999;
+  background-color: #fff;
+}
+
+.cover-bg {
+  background-image: url('http://lorempixel.com/output/abstract-q-c-800-450-8.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contain-bg {
+  background-image: url('http://lorempixel.com/output/abstract-q-c-800-450-8.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
